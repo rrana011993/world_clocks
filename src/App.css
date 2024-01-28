@@ -18,6 +18,10 @@
   color: red;
 }
 
+.App-header p {
+  font-size: medium;
+}
+
 .App-body {
   display: flex;
   flex-direction: column;
