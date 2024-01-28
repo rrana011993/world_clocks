@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>World <span>Clocks</span></div>
+        <p>A Platform for Exploring/Comparing Worldwide Time Zones</p>
       </header>
       <body className='App-body'>
         <div className='menu'>
