@@ -1,0 +1,306 @@
+.dial {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    border: double;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #d3d3d3;
+    border-radius: 50%;
+    background-image: radial-gradient(#fff, #eeeeef);
+    box-shadow: 0 0px 5px 1px rgba(0, 0, 0, 1.5);
+}
+
+.dial-alert {
+    -webkit-animation: dial-glow 1s ease-in-out infinite alternate;
+    -moz-animation: dial-glow 1s ease-in-out infinite alternate;
+    animation: dial-glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes dial-glow {
+    from {
+        color: black;
+        box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    }
+
+    to {
+        color: black;
+        box-shadow: 0 0 20px #a39fc9, 0 0 30px #a39fc9, 0 0 40px #a39fc9, 0 0 50px #a39fc9, 0 0 60px #a39fc9, 0 0 70px #a39fc9;
+    }
+}
+
+.dial-dominant {
+    border-color: #4a4a4a91;
+    background-image: none;
+    background-color: #172365;
+    box-shadow: 0 0px 5px 1px #010727;
+}
+
+.dial-alert-dominant {
+    -webkit-animation: dominant-dial-glow 1s ease-in-out infinite alternate;
+    -moz-animation: dominant-dial-glow 1s ease-in-out infinite alternate;
+    animation: dominant-dial-glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes dominant-dial-glow {
+    from {
+        color: black;
+        box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    }
+
+    to {
+        color: black;
+        box-shadow: 0 0 20px #172365, 0 0 30px #172365, 0 0 40px #172365, 0 0 50px #172365, 0 0 60px #172365, 0 0 70px #172365;
+    }
+}
+
+.center-dot {
+    position: absolute;
+    top: 182px;
+    left: 182px;
+    z-index: 2;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #aaa;
+}
+
+.center-dot-dominant {
+    background: red;
+}
+
+.inner-dial-circle {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 330px;
+    height: 330px;
+    border: dotted;
+    border-radius: 50%;
+    border-width: 4.5px;
+    border-color: #dddbdb91;
+}
+
+.inner-dial-circle-dominant {
+    border-color: #4a4a4a91;
+}
+
+.hour-numbers {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6f6f6f;
+}
+
+.hour-numbers-dominant {
+    color: #f9f9f9;
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand {
+    position: absolute;
+    transform-origin: bottom center;
+    z-index: 1;
+}
+
+.hour-hand {
+    top: 120px;
+    right: 187px;
+    width: 6px;
+    height: 70px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.hour-hand-dominant {
+    background-color: #f9f9f9;
+}
+
+
+.minute-hand {
+    top: 100px;
+    right: 188px;
+    width: 4px;
+    height: 90px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.minute-hand-dominant {
+    background-color: #f9f9f9;
+}
+
+.second-hand {
+    top: 70px;
+    left: 189px;
+    width: 2px;
+    height: 120px;
+    border-radius: 1px;
+    background-color: red;
+}
+
+.hour-numbers span {
+    width: 20px;
+    height: 20px;
+}
+
+
+.hour-12 {
+    position: absolute;
+    top: 15px;
+    left: 180px;
+}
+
+.hour-6 {
+    position: absolute;
+    bottom: 15px;
+    left: 180px;
+}
+
+.hour-1 {
+    position: absolute;
+    top: 40px;
+    right: 96px;
+}
+
+.hour-11 {
+    position: absolute;
+    top: 40px;
+    left: 96px;
+}
+
+.hour-2 {
+    position: absolute;
+    top: 96px;
+    right: 40px;
+}
+
+.hour-10 {
+    position: absolute;
+    top: 96px;
+    left: 40px;
+}
+
+.hour-3 {
+    position: absolute;
+    right: 15px;
+    top: 180px;
+}
+
+.hour-9 {
+    position: absolute;
+    left: 15px;
+    top: 180px;
+}
+
+.hour-4 {
+    position: absolute;
+    right: 40px;
+    top: 264px;
+}
+
+.hour-8 {
+    position: absolute;
+    left: 40px;
+    top: 264px;
+}
+
+.hour-5 {
+    position: absolute;
+    right: 96px;
+    top: 318px;
+}
+
+.hour-7 {
+    position: absolute;
+    left: 96px;
+    top: 318px;
+}
+
+.clock-lable {
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    width: 150px;
+    font-weight: 800;
+    color: #615d84;
+}
+
+.clock-lable-dominant {
+    color: #ff0000;
+}
+
+.inner-circle {
+    border: dotted;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: #d6d6d3;
+}
+
+.day {
+    position: absolute;
+    top: 160px;
+    left: 75px;
+    height: 25px;
+    width: 25px;
+    padding: 20px;
+    font-weight: 600;
+    color: #615d84;
+    box-shadow: 1px -2px 0 0px #d6d6d3;
+}
+
+.day-dominant {
+    color: #f9f9f9;
+}
+
+.date {
+    position: absolute;
+    top: 160px;
+    right: 75px;
+    width: 35px;
+    height: 35px;
+    padding: 15px;
+    font-weight: 600;
+    color: #615d84;
+    box-shadow: 1px -2px 0 0px #d6d6d3;
+}
+
+.date-dominant {
+    color: #f9f9f9;
+}
+
+.date span {
+    color: #FF0000;
+}
+
+.am-pm {
+    position: absolute;
+    top: 220px;
+    right: 167px;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    font-weight: 600;
+    color: #FF0000;
+    box-shadow: 1px -2px 0 0px #d6d6d3;
+}
+
+.alert {
+    position: absolute;
+    bottom: 70px;
+    left: 125px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #615d84;
+}
+
+.alert-dominant {
+    color: #f9f9f9;
+}
+
+.alert span {
+    color: #FF0000;
+}

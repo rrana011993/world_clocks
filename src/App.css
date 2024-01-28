@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.App-header {
+  min-height: 20vh;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: #615d84;
+}
+
+.App-header span {
+  color: red;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  height: 70vh;
+  gap: 1rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: baseline;
+  gap: 10px;
+  width: 100vw;
+  height: 50px;
+}
+
+.menu label {
+  height: 30px;
+  color: #615d84;
+}
+
+.durations-drop-down {
+  width: 150px;
+  height: 30px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 10px;
+  outline: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: medium;
+  color: #615d84;
+  box-shadow: 0 4px 15px #BFBCD8;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 60vh;
+  gap: 1rem;
+}
