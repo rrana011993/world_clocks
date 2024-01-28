@@ -19,20 +19,23 @@ Make sure you have the following installed on your machine:
 
 2. **Navigate to the project directory:**
 
-    ```cd react-clock-app
+    ```bash
+   cd react-clock-app
 
 3. **Install dependencies:**
 
-    ```npm install
+    ```bash
+   npm install
 
 ## Usage
 
 1. **Start the development server:**
 
-    ```npm start
+    ```bash
+   npm start
 
     Runs the app in the development mode.\
     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-    The page will reload if you make edits in the code.\
-    You will also see any lint errors in the console.
+The page will reload if you make edits in the code.\
+You will also see any lint errors in the console.
