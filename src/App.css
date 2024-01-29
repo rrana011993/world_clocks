@@ -36,7 +36,7 @@
   flex-direction: row;
   justify-content: end;
   align-items: baseline;
-  gap: 10px;
+/*   gap: 10px; */
   width: 100vw;
   height: 50px;
 }
@@ -47,7 +47,7 @@
 }
 
 .durations-drop-down {
-  width: 150px;
+/*   width: 150px; */
   height: 30px;
   margin-right: 20px;
   border: none;
@@ -57,7 +57,7 @@
   font-weight: 600;
   font-size: medium;
   color: #615d84;
-  box-shadow: 0 4px 15px #BFBCD8;
+/*   box-shadow: 0 4px 15px #BFBCD8; */
 }
 
 .body-container {
