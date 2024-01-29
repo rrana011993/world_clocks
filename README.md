@@ -14,12 +14,12 @@ Make sure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/react-clock-app.git
+   git clone https://github.com/rrana011993/world_clocks.git
 
 2. **Navigate to the project directory:**
 
     ```bash
-   cd react-clock-app
+   cd world_clocks
 
 3. **Install dependencies:**
 
