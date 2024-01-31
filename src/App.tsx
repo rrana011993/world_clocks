@@ -16,7 +16,7 @@ function App() {
         <div>World <span>Clocks</span></div>
         <p>A Platform for Exploring/Comparing Worldwide Time Zones</p>
       </header>
-      <body className='App-body'>
+      <div className='App-body'>
         <div className='menu'>
           <label>Alert Duration</label>
           <select
@@ -37,7 +37,7 @@ function App() {
             />
           )}
         </div>
-      </body>
+      </div>
     </div>
   );
 }
