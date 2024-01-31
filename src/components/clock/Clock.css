@@ -20,12 +20,10 @@
 
 @keyframes dial-glow {
     from {
-        color: black;
         box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
     }
 
     to {
-        color: black;
         box-shadow: 0 0 20px #a39fc9, 0 0 30px #a39fc9, 0 0 40px #a39fc9, 0 0 50px #a39fc9, 0 0 60px #a39fc9, 0 0 70px #a39fc9;
     }
 }
