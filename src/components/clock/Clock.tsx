@@ -18,7 +18,7 @@ export default function Clock({ timeZone, dominant, selectedDuration }: props) {
             setTime(newTime);
             const [hours, minutes, seconds] = (newTime.split(/:| /));
             if (Number(hours) % selectedDuration === 0 && minutes == '00' && seconds == '00') {
-                setAlertMsg(`${newTime.split(/:| /)[0]} ${newTime.split(' ')[1]}`)
+                setAlertMsg(`${hours} ${newTime.split(' ')[1]}`)
                 setTimeout(() => setAlertMsg(''), 15000)
             }
         }, 1000);
