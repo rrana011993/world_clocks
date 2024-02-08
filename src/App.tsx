@@ -3,8 +3,6 @@ import './App.css';
 import ClockContainer from './components/clockContainer/ClockContainer';
 import { ALERT_DURATIONS, INITIAL_TIMEZONES } from './constants';
 
-
-
 function App() {
   const [usedTimezones, setUsedTimezones] = useState<Record<number, string>>(INITIAL_TIMEZONES)
 
